@@ -1,0 +1,437 @@
+{
+    "accessors": {
+        "accessor_21": {
+            "bufferView": "bufferView_29",
+            "byteOffset": 0,
+            "byteStride": 0,
+            "componentType": 5123,
+            "count": 108,
+            "type": "SCALAR"
+        },
+        "accessor_23": {
+            "bufferView": "bufferView_30",
+            "byteOffset": 0,
+            "byteStride": 12,
+            "componentType": 5126,
+            "count": 54,
+            "max": [
+                7.66832,
+                6.9976,
+                12.9
+            ],
+            "min": [
+                -5.84587,
+                -6.11562,
+                0
+            ],
+            "type": "VEC3"
+        },
+        "accessor_25": {
+            "bufferView": "bufferView_30",
+            "byteOffset": 648,
+            "byteStride": 12,
+            "componentType": 5126,
+            "count": 54,
+            "max": [
+                0.845938,
+                0.845929,
+                1
+            ],
+            "min": [
+                -0.830512,
+                -0.834169,
+                -1
+            ],
+            "type": "VEC3"
+        },
+        "accessor_27": {
+            "bufferView": "bufferView_30",
+            "byteOffset": 1296,
+            "byteStride": 8,
+            "componentType": 5126,
+            "count": 54,
+            "max": [
+                40.8155,
+                1
+            ],
+            "min": [
+                0,
+                -12.1132
+            ],
+            "type": "VEC2"
+        }
+    },
+    "animations": {},
+    "asset": {
+        "generator": "collada2gltf@d78daf1e7950e6c22fe6bec1d07965e8a302e90d",
+        "premultipliedAlpha": true,
+        "profile": {
+            "api": "WebGL",
+            "version": "1.0.2"
+        },
+        "version": 1
+    },
+    "bufferViews": {
+        "bufferView_29": {
+            "buffer": "\\Paul\\Projects\\open3D\\data\\testarea\\osgb1000005425901",
+            "byteLength": 216,
+            "byteOffset": 0,
+            "target": 34963
+        },
+        "bufferView_30": {
+            "buffer": "\\Paul\\Projects\\open3D\\data\\testarea\\osgb1000005425901",
+            "byteLength": 1728,
+            "byteOffset": 216,
+            "target": 34962
+        }
+    },
+    "buffers": {
+        "\\Paul\\Projects\\open3D\\data\\testarea\\osgb1000005425901": {
+            "byteLength": 1944,
+            "type": "arraybuffer",
+            "uri": "data:application/octet-stream;base64,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"
+        }
+    },
+    "materials": {
+        "__glTF__defaultMaterial0": {
+            "name": "__glTF__defaultMaterial0",
+            "technique": "technique0",
+            "values": {
+                "diffuse": [
+                    1,
+                    1,
+                    1,
+                    1
+                ]
+            }
+        }
+    },
+    "meshes": {
+        "mesh_0": {
+            "name": "o3dpart_11",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": "accessor_25",
+                        "POSITION": "accessor_23",
+                        "TEXCOORD_0": "accessor_27"
+                    },
+                    "indices": "accessor_21",
+                    "material": "__glTF__defaultMaterial0",
+                    "mode": 4
+                }
+            ]
+        }
+    },
+    "nodes": {
+        "node_0": {
+            "children": [
+                "node_1",
+                "node_2",
+                "node_3",
+                "node_4",
+                "node_5",
+                "node_6",
+                "node_7",
+                "node_8"
+            ],
+            "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1
+            ],
+            "meshes": [
+                "mesh_0"
+            ],
+            "name": "o3dpart_1"
+        },
+        "node_1": {
+            "children": [],
+            "matrix": [
+                0.562719,
+                -0.826648,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                -0.826648,
+                -0.562719,
+                0,
+                0,
+                -5.84587,
+                -2.85737,
+                0,
+                1
+            ],
+            "name": "o3dpart_3"
+        },
+        "node_2": {
+            "children": [],
+            "matrix": [
+                -0.839918,
+                -0.542713,
+                -5.55112e-017,
+                0,
+                5.55112e-017,
+                -1.66533e-016,
+                1,
+                0,
+                -0.542713,
+                0.839918,
+                1.66533e-016,
+                0,
+                -3.76043,
+                -1.50987,
+                0,
+                1
+            ],
+            "name": "o3dpart_4"
+        },
+        "node_3": {
+            "children": [],
+            "matrix": [
+                0.557,
+                -0.830512,
+                1.11022e-016,
+                0,
+                1.11022e-016,
+                1.11022e-016,
+                1,
+                0,
+                -0.830512,
+                -0.557,
+                1.11022e-016,
+                0,
+                -5.39891,
+                0.933182,
+                0,
+                1
+            ],
+            "name": "o3dpart_5"
+        },
+        "node_4": {
+            "children": [],
+            "matrix": [
+                -0.839231,
+                -0.543775,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                -0.543775,
+                0.839231,
+                0,
+                0,
+                3.96545,
+                6.99007,
+                0,
+                1
+            ],
+            "name": "o3dpart_6"
+        },
+        "node_5": {
+            "children": [],
+            "matrix": [
+                -0.548821,
+                0.83594,
+                5.55112e-017,
+                0,
+                -5.55112e-017,
+                -1.66533e-016,
+                1,
+                0,
+                0.83594,
+                0.548821,
+                1.66533e-016,
+                0,
+                7.66832,
+                1.35012,
+                0,
+                1
+            ],
+            "name": "o3dpart_7"
+        },
+        "node_6": {
+            "children": [],
+            "matrix": [
+                0.834262,
+                0.551369,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0.551369,
+                -0.834262,
+                0,
+                0,
+                -3.62953,
+                -6.11316,
+                0,
+                1
+            ],
+            "name": "o3dpart_8"
+        },
+        "node_7": {
+            "children": [],
+            "matrix": [
+                1,
+                -5.1953e-017,
+                0,
+                0,
+                5.1953e-017,
+                1,
+                -0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                -5.84587,
+                -6.11562,
+                12.9,
+                1
+            ],
+            "name": "o3dpart_9"
+        },
+        "node_8": {
+            "children": [],
+            "matrix": [
+                -1,
+                2.66259e-017,
+                0,
+                0,
+                2.66259e-017,
+                1,
+                0,
+                0,
+                0,
+                0,
+                -1,
+                0,
+                7.66832,
+                -6.11562,
+                0,
+                1
+            ],
+            "name": "o3dpart_10"
+        },
+        "node_9": {
+            "children": [
+                "node_0"
+            ],
+            "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                -1,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1
+            ],
+            "name": "Y_UP_Transform"
+        }
+    },
+    "programs": {
+        "program_0": {
+            "attributes": [
+                "a_normal",
+                "a_position"
+            ],
+            "fragmentShader": "\\Paul\\Projects\\open3D\\data\\testarea\\osgb10000054259010FS",
+            "vertexShader": "\\Paul\\Projects\\open3D\\data\\testarea\\osgb10000054259010VS"
+        }
+    },
+    "scene": "defaultScene",
+    "scenes": {
+        "defaultScene": {
+            "nodes": [
+                "node_9"
+            ]
+        }
+    },
+    "shaders": {
+        "\\Paul\\Projects\\open3D\\data\\testarea\\osgb10000054259010FS": {
+            "type": 35632,
+            "uri": "data:text/plain;base64,cHJlY2lzaW9uIGhpZ2hwIGZsb2F0Owp2YXJ5aW5nIHZlYzMgdl9ub3JtYWw7CnVuaWZvcm0gdmVjNCB1X2RpZmZ1c2U7CnZvaWQgbWFpbih2b2lkKSB7CnZlYzMgbm9ybWFsID0gbm9ybWFsaXplKHZfbm9ybWFsKTsKdmVjNCBjb2xvciA9IHZlYzQoMC4sIDAuLCAwLiwgMC4pOwp2ZWM0IGRpZmZ1c2UgPSB2ZWM0KDAuLCAwLiwgMC4sIDEuKTsKZGlmZnVzZSA9IHVfZGlmZnVzZTsKZGlmZnVzZS54eXogKj0gbWF4KGRvdChub3JtYWwsdmVjMygwLiwwLiwxLikpLCAwLik7CmNvbG9yLnh5eiArPSBkaWZmdXNlLnh5ejsKY29sb3IgPSB2ZWM0KGNvbG9yLnJnYiAqIGRpZmZ1c2UuYSwgZGlmZnVzZS5hKTsKZ2xfRnJhZ0NvbG9yID0gY29sb3I7Cn0K"
+        },
+        "\\Paul\\Projects\\open3D\\data\\testarea\\osgb10000054259010VS": {
+            "type": 35633,
+            "uri": "data:text/plain;base64,cHJlY2lzaW9uIGhpZ2hwIGZsb2F0OwphdHRyaWJ1dGUgdmVjMyBhX3Bvc2l0aW9uOwphdHRyaWJ1dGUgdmVjMyBhX25vcm1hbDsKdmFyeWluZyB2ZWMzIHZfbm9ybWFsOwp1bmlmb3JtIG1hdDMgdV9ub3JtYWxNYXRyaXg7CnVuaWZvcm0gbWF0NCB1X21vZGVsVmlld01hdHJpeDsKdW5pZm9ybSBtYXQ0IHVfcHJvamVjdGlvbk1hdHJpeDsKdm9pZCBtYWluKHZvaWQpIHsKdmVjNCBwb3MgPSB1X21vZGVsVmlld01hdHJpeCAqIHZlYzQoYV9wb3NpdGlvbiwxLjApOwp2X25vcm1hbCA9IHVfbm9ybWFsTWF0cml4ICogYV9ub3JtYWw7CmdsX1Bvc2l0aW9uID0gdV9wcm9qZWN0aW9uTWF0cml4ICogcG9zOwp9Cg=="
+        }
+    },
+    "skins": {},
+    "techniques": {
+        "technique0": {
+            "attributes": {
+                "a_normal": "normal",
+                "a_position": "position"
+            },
+            "parameters": {
+                "diffuse": {
+                    "type": 35666
+                },
+                "modelViewMatrix": {
+                    "semantic": "MODELVIEW",
+                    "type": 35676
+                },
+                "normal": {
+                    "semantic": "NORMAL",
+                    "type": 35665
+                },
+                "normalMatrix": {
+                    "semantic": "MODELVIEWINVERSETRANSPOSE",
+                    "type": 35675
+                },
+                "position": {
+                    "semantic": "POSITION",
+                    "type": 35665
+                },
+                "projectionMatrix": {
+                    "semantic": "PROJECTION",
+                    "type": 35676
+                }
+            },
+            "program": "program_0",
+            "states": {
+                "enable": [
+                    2929,
+                    2884
+                ]
+            },
+            "uniforms": {
+                "u_diffuse": "diffuse",
+                "u_modelViewMatrix": "modelViewMatrix",
+                "u_normalMatrix": "normalMatrix",
+                "u_projectionMatrix": "projectionMatrix"
+            }
+        }
+    }
+}
