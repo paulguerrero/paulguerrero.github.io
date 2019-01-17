@@ -1,15 +1,17 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
+    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <!--<link rel="icon" href="../../favicon.ico">-->
 
-    <title>Paul Guerrero</title>
+    <meta name="description" content="Personal Homepage of Paul Guerrero">
+    <meta name="author" content="Paul Guerrero">
+    <!--<link rel="icon" href="../../favicon.ico">-->
+   
+    <!-- Own styles
+    <link href="css/styles.css" rel="stylesheet"> -->
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -23,15 +25,9 @@
     <!-- Own styles -->
     <link href="css/styles.css" rel="stylesheet">
 
-    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-    <script src="js/ie-emulation-modes-warning.js"></script>
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+    <title>Paul Guerrero</title>
+
   </head>
 
   <body>
@@ -62,126 +58,239 @@
     </nav>-->
 
     <!-- Main jumbotron for a primary marketing message or call to action -->
-    <div class="jumbotron">
+    <div class="jumbotron" style="background-color:#f2f2f2">
       <div class="container">
-        <div class="col-md-2">
+        <div class="row" style="margin-bottom: 20px;">
+          <div class="col-xs-4 col-md-2">
             <img src="images/photo.png" class="img-rounded" alt="Paul Guerrero">
-        </div>
-        <div class="col-md-10">
-        <h2>Paul Guerrero</h2>
+          </div>
+          <div class="col-xs-8 col-md-10">
+            <h2>Paul Guerrero</h2>
             <p>Post-Doc at the <a href="http://geometry.cs.ucl.ac.uk/">Smart Geometry Processing Group</a>, <a href="http://www.ucl.ac.uk/">UCL</a></p>
-            <p><small><span class="glyphicon glyphicon-envelope"></span> paul.guerrero@ucl.ac.uk,  paulaugguerrero@gmail.com</small></p>
-            <p><small><span class="glyphicon glyphicon-home"></span> 66-72 Gower Street, Room 5.12, London, WC1E 6BT, UK</small></p>
+            <p><small><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> paul.guerrero@ucl.ac.uk,  paulaugguerrero@gmail.com</small></p>
+            <p><small><span class="glyphicon glyphicon-home" aria-hidden="true"></span> 66-72 Gower Street, Room 5.12, London, WC1E 6BT, UK</small></p>
+          </div>
         </div>
       </div>
     </div>
 
     <div class="container">
       <!-- Example row of columns -->
-        <div class="row">
-            <p class="lead"><small>I am currently a post-doctoral researcher (Research Associate) working at the <a href="http://geometry.cs.ucl.ac.uk/">Smart Geometry Processing Group</a>, <a href="http://www.ucl.ac.uk/">UCL</a>. I completed my PhD at the <a href="http://www.cg.tuwien.ac.at/">Insitute for Computer Graphics and Algorithms</a>, <a href="https://www.tuwien.ac.at">Vienna University of Technology</a>, and at the <a href="http://vcc.kaust.edu.sa">Visual Computing Center</a> in <a href="http://www.kaust.edu.sa">KAUST</a>.<br>
-              <a href="paul_guerrero_cv.pdf">CV</a>, <a href="https://scholar.google.com/citations?user=hNjubvkAAAAJ">Google Scholar profile</a></p>
-            </small></p>            
+      <div class="row">
+        <p class="lead"><small>I am currently a post-doctoral researcher (Research Associate) working at the <a href="http://geometry.cs.ucl.ac.uk/">Smart Geometry Processing Group</a>, <a href="http://www.ucl.ac.uk/">UCL</a>. I completed my PhD at the <a href="http://www.cg.tuwien.ac.at/">Insitute for Computer Graphics and Algorithms</a>, <a href="https://www.tuwien.ac.at">Vienna University of Technology</a>, and at the <a href="http://vcc.kaust.edu.sa">Visual Computing Center</a> in <a href="http://www.kaust.edu.sa">KAUST</a>.<br>
+          <a href="paul_guerrero_cv.pdf">CV</a>, <a href="https://scholar.google.com/citations?user=hNjubvkAAAAJ">Google Scholar profile</a></p>
+        </small></p>            
+      </div>
+      
+      <div class="row">
+        <h2>Publications</h2>
+      </div>
+            
+      <div class="row" style="margin-bottom: 20px;">
+        <div class="well whitebg col-xs-6 col-md-3" style="padding:0px; margin:0px;">
+          <img src="images/FrankenGAN.jpg" class="img-responsive" alt="FrankenGAN">
         </div>
-        
-        <div class="row">
-            <h2>Publications</h2>
-            <div class="row">
-                <div class="well whitebg col-md-4">
-                <img src="images/Reltemplates.png" class="img-responsive" alt="Relationship Templates">
-                </div>
-                <div class="col-md-8">
-                <h3>Relationship Templates for Creating Scene Variations</h3>  
-                <h4>
-                Xi Zhao,
-                <a href="http://csse.szu.edu.cn/staff/ruizhenhu/">Ruizhen Hu</a>,
-                Paul Guerrero,
-                <a href="http://www0.cs.ucl.ac.uk/staff/n.mitra/">Niloy J. Mitra</a>,
-                <a href="http://homepages.inf.ed.ac.uk/tkomura/">Taku Komura</a>,
-                <h4>ACM Transactions on Graphics (SIGGRAPH Asia 2016)</h4>
-                <h4>[<a href="papers/Reltemplates.pdf">paper</a>] [<a href="http://geometry.cs.ucl.ac.uk/projects/2016/relationship-templates/">webpage</a>] [<a href="papers/Reltemplates_Supplementary.pdf">additional material</a>] [slides (soon)] [data (soon)]</h4>
-                </div>
-            </div>
-            <div class="row">
-                <div class="well whitebg col-md-4">
-                <img src="images/PATEX.png" class="img-responsive" alt="PATEX">
-                </div>
-                <div class="col-md-8">
-                <h3>PATEX: Exploring Pattern Variations</h3>  
-                <h4>Paul Guerrero, <a href="http://www.gilbertbernstein.com/">Gilbert Bernstein</a>, <a href="http://www.adobe.com/technology/people/san-francisco/wilmot-li.html">Wilmot Li</a>, <a href="http://www0.cs.ucl.ac.uk/staff/n.mitra/">Niloy J. Mitra</a>
-                <h4>ACM Transactions on Graphics (SIGGRAPH 2016)</h4>
-                <h4>[<a href="papers/PATEX.pdf">paper</a>] [<a href="https://youtu.be/PiSW6omu8Qs">video</a>] [<a href="http://geometry.cs.ucl.ac.uk/projects/2016/pattern-variations/">webpage</a>] [<a href="papers/PATEX_supplementary.pdf">additional material</a>] [<a href="http://geometry.cs.ucl.ac.uk/projects/2016/pattern-variations/paper_docs/GuerreroEtAl_PATEX_SIGG16_slides.pptx">slides</a>] [<a href="http://bitbucket.org/paulguerrero/patex">code</a>] [<a href="http://geometry.cs.ucl.ac.uk/projects/2016/pattern-variations/paper_docs/GuerreroEtAl_PATEX_SIGG16_data.zip">data</a>]</h4>
-                </div>
-            </div>
-            <div class="row">
-                <div class="well whitebg col-md-4">
-                <img src="images/RAID.png" class="img-responsive" alt="RAID">
-                </div>
-                <div class="col-md-8">
-                <h3>RAID: A Relation-Augmented Image Descriptor</h3>  
-                <h4>Paul Guerrero, <a href="http://www0.cs.ucl.ac.uk/staff/n.mitra/">Niloy J. Mitra</a>, <a href="http://peterwonka.net/">Peter Wonka</a>
-                <h4>ACM Transactions on Graphics (SIGGRAPH 2016)</h4>
-                <h4>[<a href="papers/RAID.pdf">paper</a>] [<a href="https://youtu.be/uQzLdpuwxRI">video</a>] [<a href="http://geometry.cs.ucl.ac.uk/projects/2016/image-relationships/">webpage</a>] [<a href="papers/RAID_supplementary.pdf">additional material</a>] [<a href="http://geometry.cs.ucl.ac.uk/projects/2016/image-relationships/paper_docs/GuerreroEtAl_RAID_SIGG16_slides.pptx">slides</a>] [<a href="http://bitbucket.org/paulguerrero/raid">code</a>] [<a href="http://geometry.cs.ucl.ac.uk/projects/2016/image-relationships/paper_docs/GuerreroEtAl_RAID_SIGG16_data.zip">data</a>]</h4>
-                </div>
-            </div>
-            <div class="row">
-                <div class="well whitebg col-md-4">
-                <img src="images/Open3D.png" class="img-responsive" alt="Open3D">
-                </div>
-                <div class="col-md-8">
-                <h3>Open3D: Crowd-Sourced Distributed Curation of City Models</h3>  
-                <h4><a href="http://lvzhihan.github.io/">Zhihan Lu</a>, Paul Guerrero, <a href="http://www0.cs.ucl.ac.uk/staff/n.mitra/">Niloy J. Mitra</a>, <a href="http://wp.cs.ucl.ac.uk/anthonysteed/">Anthony Steed</a>
-                <h4>ACM Web3D 2016</h4>
-                <h4>[<a href="papers/Open3D.pdf">paper</a>] [<a href="https://youtu.be/5NDroFghFQQ">video</a>] [<a href="http://geometry.cs.ucl.ac.uk/projects/2016/open3d-system/">webpage</a>] [<a href="projects/2016/open3d-system/paper_docs/LuEtAl_Open3D_Web3D16_slides.pptx">slides</a>]</h4>
-                </div>
-            </div>
-            <div class="row">
-                <div class="well whitebg col-md-4">
-                <img src="images/LearningShapePlacements.png" class="img-responsive" alt="Learning Shape Placements">
-                </div>
-                <div class="col-md-8">
-                <h3>Learning Shape Placements by Example</h3>  
-                <h4>Paul Guerrero, <a href="http://www.researchgate.net/profile/Stefan_Jeschke">Stefan Jeschke</a>, <a href="http://www.cg.tuwien.ac.at/staff/MichaelWimmer.html">Michael Wimmer</a>, <a href="http://peterwonka.net">Peter Wonka</a></h4>
-                <h4>ACM Transactions on Graphics (SIGGRAPH 2015)</h4>
-                <h4>[<a href="papers/LearningShapePlacements.pdf">paper</a>] [<a href="https://youtu.be/hKv_bUqszBA">video</a>]</h4>
-                </div>
-            </div>
-            <div class="row">
-                <div class="well whitebg col-md-4">
-                <img src="images/TransformationParameterSimilarity.png" class="img-responsive" alt="Transformation Parameter Similarity">
-                </div>
-                <div class="col-md-8">
-                <h3>Partial Shape Matching using Transformation Parameter Similarity</h3>  
-                <h4>Paul Guerrero, <a href="https://www.cg.tuwien.ac.at/staff/ThomasAuzinger.html">Thomas Auzinger</a>, <a href="http://www.cg.tuwien.ac.at/staff/MichaelWimmer.html">Michael Wimmer</a>, <a href="http://www.researchgate.net/profile/Stefan_Jeschke">Stefan Jeschke</a>
-                <h4>Computer Graphics Forum 2015 (presented at Eurographics 2016)</h4>
-                <h4>[<a href="papers/TransformationParameterSimilarity.pdf">paper</a>] [<a href="papers/TransformationParameterSimilarity_Additional.pdf">additional material</a>]</h4>
-                </div>
-            </div>
-            <div class="row">
-                <div class="well whitebg col-md-4">
-                <img src="images/EditPropagation.png" class="img-responsive" alt="Edit Propagation using Geometric Relationship Functions">
-                </div>
-                <div class="col-md-8">
-                <h3>Edit Propagation using Geometric Relationship Functions</h3>  
-                <h4>Paul Guerrero, <a href="http://www.researchgate.net/profile/Stefan_Jeschke">Stefan Jeschke</a>, <a href="http://www.cg.tuwien.ac.at/staff/MichaelWimmer.html">Michael Wimmer</a>, <a href="http://peterwonka.net">Peter Wonka</a></h4>
-                <h4>ACM Transactions on Graphics (presented at SIGGRAPH 2014)</h4>
-                <h4>[<a href="papers/EditPropagation.pdf">paper</a>] [<a href="papers/EditPropagation_HotelEditing.pdf">hotel editing sequence</a>] [<a href="papers/EditPropagation_ParkEditing.pdf">park editing sequence</a>]</h4>
-                </div>
-            </div>
-            <div class="row">
-                <div class="well whitebg col-md-4">
-                <img src="images/SphericalLights.png" class="img-responsive" alt="Spherical Lights">
-                </div>
-                <div class="col-md-8">
-                <h3>Real-time Indirect Illumination and Soft Shadows in Dynamic Scenes Using Spherical Lights</h3>  
-                <h4>Paul Guerrero, <a href="http://www.researchgate.net/profile/Stefan_Jeschke">Stefan Jeschke</a>, <a href="http://www.cg.tuwien.ac.at/staff/MichaelWimmer.html">Michael Wimmer</a>
-                <h4>Computer Graphics Forum 2008</h4>
-                <h4>[<a href="papers/SphericalLights.pdf">paper</a>]</h4>
-                </div>
-            </div>
-        
+        <div class="col-xs-12 col-md-9">
+          <h3 style="margin-top:0px;">FrankenGAN: Guided Detail Synthesis for Building Mass-Models Using Style-Synchonized GANs</h3>
+          <h4>
+            <a href="http://www.twak.co.uk/">Tom Kelly</a>,
+            Paul Guerrero,
+            <a href="https://wp.cs.ucl.ac.uk/anthonysteed/">Anthony Steed</a>,
+            <a href="http://peterwonka.net">Peter Wonka</a>,
+            <a href="http://www0.cs.ucl.ac.uk/staff/n.mitra/">Niloy J. Mitra</a>,
+          <h4>ACM Transactions on Graphics (Siggraph Asia 2018)</h4>
+          <h4>[<a href="papers/FrankenGAN.pdf">paper</a>] [<a href="http://geometry.cs.ucl.ac.uk/projects/2018/frankengan/">webpage</a>] [<a href="https://github.com/twak/chordatlas">system code</a>] [<a href="http://geometry.cs.ucl.ac.uk/projects/2018/frankengan/data">data</a>] [<a href="http://geometry.cs.ucl.ac.uk/projects/2018/frankengan/paper_docs/slides.pptx">slides</a>]</h4>
         </div>
-
+      </div>
+      <div class="row" style="margin-bottom: 20px;">
+        <div class="well whitebg col-xs-6 col-md-3" style="padding:0px; margin:0px;">
+          <img src="images/CreativeAI.jpg" class="img-responsive" alt="CreativeAI">
+        </div>
+        <div class="col-xs-12 col-md-9">
+          <h3 style="margin-top:0px;">CreativeAI: deep learning for graphics</h3>  
+          <h4>
+            <a href="http://www0.cs.ucl.ac.uk/staff/n.mitra/">Niloy J. Mitra</a>,
+            <a href="http://www0.cs.ucl.ac.uk/staff/I.Kokkinos/">Iasonas Kokkinos</a>,
+            Paul Guerrero,
+            <a href="http://www.vovakim.com/">Nils Thuerey</a>,
+            <a href="http://www.homepages.ucl.ac.uk/~ucactri/">Tobias Ritschel</a>,
+          <h4>Siggraph Asia 2018 Course</h4>
+          <h4>[<a href="http://geometry.cs.ucl.ac.uk/creativeai/">webpage</a>] [<a href="https://github.com/smartgeometry-ucl/dl4g">code</a>]</h4>
+        </div>
+      </div>
+      <div class="row" style="margin-bottom: 20px;">
+        <div class="well whitebg col-xs-6 col-md-3" style="padding:0px; margin:0px;">
+          <img src="images/PCPNet.png" class="img-responsive" alt="PCPNet">
+        </div>
+        <div class="col-xs-12 col-md-9">
+          <h3 style="margin-top:0px;">PCPNet: Learning Local Shape Properties from Raw Point Clouds</h3>  
+          <h4>
+            Paul Guerrero,
+            <a href="http://www.yanirk.com/">Yanir Kleiman</a>,
+            <a href="http://www.lix.polytechnique.fr/~maks/">Maks Ovsjanikov</a>,
+            <a href="http://www0.cs.ucl.ac.uk/staff/n.mitra/">Niloy J. Mitra</a>,
+          <h4>Computer Graphics Forum (Eurographics 2018)</h4>
+          <h4>[<a href="papers/PCPNet.pdf">paper</a>] [<a href="http://geometry.cs.ucl.ac.uk/projects/2018/pcpnet/">webpage</a>] [<a href="https://github.com/paulguerrero/pcpnet">code</a>] [<a href="http://geometry.cs.ucl.ac.uk/projects/2018/pcpnet/pclouds.zip">data</a>] [<a href="papers/PCPNet_slides.pdf">slides</a>]</h4>
+        </div>
+      </div>
+      <!-- <div class="row" style="margin-bottom: 20px;">
+        <div class="well whitebg col-xs-6 col-md-3" style="padding:0px; margin:0px;">
+          <img src="images/iMapper.png" class="img-responsive" alt="iMapper">
+        </div>
+        <div class="col-xs-12 col-md-9">
+          <h3 style="margin-top:0px;">iMapper: Interaction-guided Joint Scene and Human Motion Mapping from Monocular Videos</h3>  
+          <h4>
+            <a href="http://www0.cs.ucl.ac.uk/staff/n.mitra/">Aron Monszpart</a>,
+            Paul Guerrero,
+            <a href="http://www.duygu-ceylan.com/">Duygu Ceylan</a>,
+            <a href="http://www.meyumer.com/">Ersin Yumer</a>,
+            <a href="http://www0.cs.ucl.ac.uk/staff/n.mitra/">Niloy J. Mitra</a>,
+          <h4>arXiv pre-publication (2018)</h4>
+          <h4>[<a href="https://arxiv.org/pdf/1806.07889.pdf">paper</a>] [webpage] [code] [data]</h4>
+        </div>
+      </div> -->
+      <div class="row" style="margin-bottom: 20px;">
+        <div class="well whitebg col-xs-6 col-md-3" style="padding:0px; margin:0px;">
+          <img src="images/POINTCLEANNET.png" class="img-responsive" alt="POINTCLEANNET">
+        </div>
+        <div class="col-xs-12 col-md-9">
+          <h3 style="margin-top:0px;">POINTCLEANNET: Learning to Denoise and Remove Outliers from Dense Point Clouds</h3>  
+          <h4>
+            <a href="http://www.lix.polytechnique.fr/Labo/Marie-Julie.RAKOTOSAONA/">Marie-Julie Rakotosaona</a>,
+            <a href="https://github.com/vittorione94">Vittorio La Barbera</a>,
+            Paul Guerrero,
+            <a href="http://www0.cs.ucl.ac.uk/staff/n.mitra/">Niloy J. Mitra</a>,
+            <a href="http://www.lix.polytechnique.fr/~maks/">Maks Ovsjanikov</a>,
+          <h4>arXiv pre-publication (2019)</h4>
+          <h4>[<a href="https://arxiv.org/pdf/1901.01060.pdf">paper</a>] [webpage] [code] [data]</h4>
+        </div>
+      </div>
+      <div class="row" style="margin-bottom: 20px;">
+        <div class="well whitebg col-xs-6 col-md-3" style="padding:0px; margin:0px;">
+          <img src="images/dl4g.jpg" class="img-responsive" alt="Deep Learning for Graphics">
+        </div>
+        <div class="col-xs-12 col-md-9">
+          <h3 style="margin-top:0px;">Deep Learning for Graphics</h3>  
+          <h4>
+            <a href="http://www0.cs.ucl.ac.uk/staff/n.mitra/">Niloy J. Mitra</a>,
+            <a href="http://www.homepages.ucl.ac.uk/~ucactri/">Tobias Ritschel</a>,
+            <a href="http://www0.cs.ucl.ac.uk/staff/I.Kokkinos/">Iasonas Kokkinos</a>,
+            Paul Guerrero,
+            <a href="http://www.vovakim.com/">Vladimir Kim</a>,
+            <a href="https://homes.cs.washington.edu/~krematas/">Konstantinos Rematas</a>,
+            <a href="http://www.meyumer.com/">Ersin Yumer</a>,
+          <h4>Eurographics 2018 Course</h4>
+          <h4>[<a href="http://geometry.cs.ucl.ac.uk/dl4g/">webpage</a>] [<a href="https://github.com/smartgeometry-ucl/dl4g">code</a>]</h4>
+        </div>
+      </div>
+      <div class="row" style="margin-bottom: 20px;">
+        <div class="well whitebg col-xs-6 col-md-3" style="padding:0px; margin:0px;">
+          <img src="images/MapPoints.png" class="img-responsive" alt="How do Users Map Points?">
+        </div>
+        <div class="col-xs-12 col-md-9">
+          <h3 style="margin-top:0px;">How Do Users Map Points Between Dissimilar Shapes?</h3>  
+          <h4>
+            <a href="https://www.cg.tuwien.ac.at/staff/MichaelHecher.html">Michael Hecher</a>,
+            Paul Guerrero,
+            <a href="http://peterwonka.net">Peter Wonka</a>,
+            <a href="http://www.cg.tuwien.ac.at/staff/MichaelWimmer.html">Michael Wimmer</a>,
+          <h4>IEEE TVCG (2018)</h4>
+          <h4>[<a href="papers/HowDoUsersMapPoints.pdf">paper</a>]</h4>
+        </div>
+      </div>
+      <div class="row" style="margin-bottom: 20px;">
+        <div class="well whitebg col-xs-6 col-md-3" style="padding:0px; margin:0px;">
+          <img src="images/Reltemplates.png" class="img-responsive" alt="Relationship Templates">
+        </div>
+        <div class="col-xs-12 col-md-9">
+          <h3 style="margin-top:0px;">Relationship Templates for Creating Scene Variations</h3>  
+          <h4>
+            Xi Zhao,
+            <a href="http://csse.szu.edu.cn/staff/ruizhenhu/">Ruizhen Hu</a>,
+            Paul Guerrero,
+            <a href="http://www0.cs.ucl.ac.uk/staff/n.mitra/">Niloy J. Mitra</a>,
+            <a href="http://homepages.inf.ed.ac.uk/tkomura/">Taku Komura</a>,
+          <h4>ACM Transactions on Graphics (SIGGRAPH Asia 2016)</h4>
+          <h4>[<a href="papers/Reltemplates.pdf">paper</a>] [<a href="http://geometry.cs.ucl.ac.uk/projects/2016/relationship-templates/">webpage</a>] [<a href="papers/Reltemplates_Supplementary.pdf">additional material</a>]</h4>
+        </div>
+      </div>
+      <div class="row" style="margin-bottom: 20px;">
+        <div class="well whitebg col-xs-6 col-md-3" style="padding:0px; margin:0px;">
+          <img src="images/PATEX.png" class="img-responsive" alt="PATEX">
+        </div>
+        <div class="col-xs-12 col-md-9">
+          <h3 style="margin-top:0px;">PATEX: Exploring Pattern Variations</h3>  
+          <h4>Paul Guerrero, <a href="http://www.gilbertbernstein.com/">Gilbert Bernstein</a>, <a href="http://www.adobe.com/technology/people/san-francisco/wilmot-li.html">Wilmot Li</a>, <a href="http://www0.cs.ucl.ac.uk/staff/n.mitra/">Niloy J. Mitra</a>
+          <h4>ACM Transactions on Graphics (SIGGRAPH 2016)</h4>
+          <h4>[<a href="papers/PATEX.pdf">paper</a>] [<a href="https://youtu.be/PiSW6omu8Qs">video</a>] [<a href="http://geometry.cs.ucl.ac.uk/projects/2016/pattern-variations/">webpage</a>] [<a href="papers/PATEX_supplementary.pdf">additional material</a>] [<a href="http://geometry.cs.ucl.ac.uk/projects/2016/pattern-variations/paper_docs/GuerreroEtAl_PATEX_SIGG16_slides.pptx">slides</a>] [<a href="http://bitbucket.org/paulguerrero/patex">code</a>] [<a href="http://geometry.cs.ucl.ac.uk/projects/2016/pattern-variations/paper_docs/GuerreroEtAl_PATEX_SIGG16_data.zip">data</a>]</h4>
+        </div>
+      </div>
+      <div class="row" style="margin-bottom: 20px;">
+        <div class="well whitebg col-xs-6 col-md-3" style="padding:0px; margin:0px;">
+          <img src="images/RAID.png" class="img-responsive" alt="RAID">
+        </div>
+        <div class="col-xs-12 col-md-9">
+          <h3 style="margin-top:0px;">RAID: A Relation-Augmented Image Descriptor</h3>  
+          <h4>Paul Guerrero, <a href="http://www0.cs.ucl.ac.uk/staff/n.mitra/">Niloy J. Mitra</a>, <a href="http://peterwonka.net/">Peter Wonka</a>
+          <h4>ACM Transactions on Graphics (SIGGRAPH 2016)</h4>
+          <h4>[<a href="papers/RAID.pdf">paper</a>] [<a href="https://youtu.be/uQzLdpuwxRI">video</a>] [<a href="http://geometry.cs.ucl.ac.uk/projects/2016/image-relationships/">webpage</a>] [<a href="papers/RAID_supplementary.pdf">additional material</a>] [<a href="http://geometry.cs.ucl.ac.uk/projects/2016/image-relationships/paper_docs/GuerreroEtAl_RAID_SIGG16_slides.pptx">slides</a>] [<a href="http://bitbucket.org/paulguerrero/raid">code</a>] [<a href="http://geometry.cs.ucl.ac.uk/projects/2016/image-relationships/paper_docs/GuerreroEtAl_RAID_SIGG16_data.zip">data</a>]</h4>
+        </div>
+      </div>
+      <div class="row" style="margin-bottom: 20px;">
+        <div class="well whitebg col-xs-6 col-md-3" style="padding:0px; margin:0px;">
+          <img src="images/Open3D.png" class="img-responsive" alt="Open3D">
+        </div>
+        <div class="col-xs-12 col-md-9">
+          <h3 style="margin-top:0px;">Open3D: Crowd-Sourced Distributed Curation of City Models</h3>  
+          <h4><a href="http://lvzhihan.github.io/">Zhihan Lu</a>, Paul Guerrero, <a href="http://www0.cs.ucl.ac.uk/staff/n.mitra/">Niloy J. Mitra</a>, <a href="http://wp.cs.ucl.ac.uk/anthonysteed/">Anthony Steed</a>
+          <h4>ACM Web3D 2016</h4>
+          <h4>[<a href="papers/Open3D.pdf">paper</a>] [<a href="https://youtu.be/5NDroFghFQQ">video</a>] [<a href="http://geometry.cs.ucl.ac.uk/projects/2016/open3d-system/">webpage</a>] [<a href="projects/2016/open3d-system/paper_docs/LuEtAl_Open3D_Web3D16_slides.pptx">slides</a>]</h4>
+        </div>
+      </div>
+      <div class="row" style="margin-bottom: 20px;">
+        <div class="well whitebg col-xs-6 col-md-3" style="padding:0px; margin:0px;">
+          <img src="images/LearningShapePlacements.png" class="img-responsive" alt="Learning Shape Placements">
+        </div>
+        <div class="col-xs-12 col-md-9">
+          <h3 style="margin-top:0px;">Learning Shape Placements by Example</h3>  
+          <h4>Paul Guerrero, <a href="http://www.researchgate.net/profile/Stefan_Jeschke">Stefan Jeschke</a>, <a href="http://www.cg.tuwien.ac.at/staff/MichaelWimmer.html">Michael Wimmer</a>, <a href="http://peterwonka.net">Peter Wonka</a></h4>
+          <h4>ACM Transactions on Graphics (SIGGRAPH 2015)</h4>
+          <h4>[<a href="papers/LearningShapePlacements.pdf">paper</a>] [<a href="https://youtu.be/hKv_bUqszBA">video</a>]</h4>
+        </div>
+      </div>
+      <div class="row" style="margin-bottom: 20px;">
+        <div class="well whitebg col-xs-6 col-md-3" style="padding:0px; margin:0px;">
+          <img src="images/TransformationParameterSimilarity.png" class="img-responsive" alt="Transformation Parameter Similarity">
+        </div>
+        <div class="col-xs-12 col-md-9">
+          <h3 style="margin-top:0px;">Partial Shape Matching using Transformation Parameter Similarity</h3>  
+          <h4>Paul Guerrero, <a href="https://www.cg.tuwien.ac.at/staff/ThomasAuzinger.html">Thomas Auzinger</a>, <a href="http://www.cg.tuwien.ac.at/staff/MichaelWimmer.html">Michael Wimmer</a>, <a href="http://www.researchgate.net/profile/Stefan_Jeschke">Stefan Jeschke</a>
+          <h4>Computer Graphics Forum 2015 (presented at Eurographics 2016)</h4>
+          <h4>[<a href="papers/TransformationParameterSimilarity.pdf">paper</a>] [<a href="papers/TransformationParameterSimilarity_Additional.pdf">additional material</a>]</h4>
+        </div>
+      </div>
+      <div class="row" style="margin-bottom: 20px;">
+        <div class="well whitebg col-xs-6 col-md-3" style="padding:0px; margin:0px;">
+          <img src="images/EditPropagation.png" class="img-responsive" alt="Edit Propagation using Geometric Relationship Functions">
+        </div>
+        <div class="col-xs-12 col-md-9">
+          <h3 style="margin-top:0px;">Edit Propagation using Geometric Relationship Functions</h3>  
+          <h4>Paul Guerrero, <a href="http://www.researchgate.net/profile/Stefan_Jeschke">Stefan Jeschke</a>, <a href="http://www.cg.tuwien.ac.at/staff/MichaelWimmer.html">Michael Wimmer</a>, <a href="http://peterwonka.net">Peter Wonka</a></h4>
+          <h4>ACM Transactions on Graphics (presented at SIGGRAPH 2014)</h4>
+          <h4>[<a href="papers/EditPropagation.pdf">paper</a>] [<a href="papers/EditPropagation_HotelEditing.pdf">hotel editing sequence</a>] [<a href="papers/EditPropagation_ParkEditing.pdf">park editing sequence</a>]</h4>
+        </div>
+      </div>
+      <div class="row" style="margin-bottom: 20px;">
+        <div class="well whitebg col-xs-6 col-md-3" style="padding:0px; margin:0px;">
+          <img src="images/SphericalLights.png" class="img-responsive" alt="Spherical Lights">
+        </div>
+        <div class="col-xs-12 col-md-9">
+          <h3 style="margin-top:0px;">Real-time Indirect Illumination and Soft Shadows in Dynamic Scenes Using Spherical Lights</h3>  
+          <h4>Paul Guerrero, <a href="http://www.researchgate.net/profile/Stefan_Jeschke">Stefan Jeschke</a>, <a href="http://www.cg.tuwien.ac.at/staff/MichaelWimmer.html">Michael Wimmer</a>
+          <h4>Computer Graphics Forum 2008</h4>
+          <h4>[<a href="papers/SphericalLights.pdf">paper</a>]</h4>
+        </div>
+      </div>
       <hr>
 
       <footer>
