@@ -70,6 +70,12 @@ bind -n M-Up select-pane -U
 bind -n M-Down select-pane -D
 
 # Switch windows 
-# usage: "SHIFT+arrow" (without prefix key)
+# Usage: "SHIFT+arrow" (without prefix key)
 bind -n S-Left  previous-window
 bind -n S-Right next-window
+
+# Re-arrange windows (move left and right)
+# Usage: "CTRL+SHIFT+arrow" (without prefix key)
+# usage: "CTRL+SHIFT+arrow" (without prefix key)
+bind-key -n C-S-Left swap-window -t -1
+bind-key -n C-S-Right swap-window -t +1
