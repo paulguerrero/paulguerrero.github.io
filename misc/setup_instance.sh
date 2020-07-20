@@ -9,6 +9,7 @@ printf "\nexport CPATH=\$CPATH:/usr/local/cuda/include\n" >> /root/.bashrc
 export CPATH=$CPATH:/usr/local/cuda/include
 
 # install useful programs
+apt update
 apt-get install htop zip rsync tmux git -y
 
 # install things needed to run aws cli (apparently needed due to a bug)
