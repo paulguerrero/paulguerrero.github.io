@@ -10,7 +10,7 @@ export CPATH=$CPATH:/usr/local/cuda/include
 
 # install useful programs
 sudo apt update
-sudo apt-get install htop zip rsync tmux git -y
+sudo apt-get install htop zip rsync tmux git nginx -y
 
 # install things needed to run aws cli (apparently needed due to a bug)
 sudo apt-get install -y -qq groff
@@ -24,10 +24,10 @@ git config --global core.eol lf
 wget http://paulguerrero.net/misc/tmux_config.txt
 mv tmux_config.txt ~/.tmux.conf
 
-# configure nginx (add proxy support for jupyter)
-# wget http://paulguerrero.net/misc/nginx.conf
-# mv nginx.conf /etc/nginx/nginx.conf
-# nginx -s reload
+# configure nginx
+wget http://paulguerrero.net/misc/nginx.conf
+sudo mv nginx.conf /etc/nginx/nginx.conf
+sudo service nginx start
 
 # install miniconda and some packages
 wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
