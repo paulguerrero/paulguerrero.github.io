@@ -1,12 +1,4 @@
 # run with source setup_instance.sh (so it runs in the shell that is starting the script and does not create a new shell)
-printf "\nexport PYTHONPATH=\$CODE_BASE/app:\$CODE_BASE/app/python:\$CODE_BASE/app/python/sensei_sdk:\$CODE_BASE/app/python/dev:\$LIBS_BASE/python/miniconda:\$LIBS_BASE/python/sensei_sdk:\$LIBS_BASE/python/senseinbs:$LIBS_BASE/plugins:\$LIBS_BASE/plugins/jupyterlab-zip\n" >> ~/.bashrc
-export PYTHONPATH=$CODE_BASE/app:$CODE_BASE/app/python:$CODE_BASE/app/python/sensei_sdk:$CODE_BASE/app/python/dev:$HOME/miniconda:$LIBS_BASE/python/sensei_sdk:$LIBS_BASE/python/senseinbs:$LIBS_BASE/plugins:$LIBS_BASE/plugins/jupyterlab-zip
-
-printf "\nexport PATH=\$PATH:/usr/local/nvidia/bin:/usr/local/cuda/bin\n" >> ~/.bashrc
-export PATH=$PATH:/usr/local/nvidia/bin:/usr/local/cuda/bin
-
-printf "\nexport CPATH=\$CPATH:/usr/local/cuda/include\n" >> ~/.bashrc
-export CPATH=$CPATH:/usr/local/cuda/include
 
 # install useful programs
 sudo apt update
@@ -43,26 +35,12 @@ source $HOME/miniconda/bin/activate
 printf "\nulimit -n 16384\n" >> ~/.bashrc
 ulimit -n 16384
 
-conda install ipython numpy -y
-conda install pytorch torchvision cudatoolkit=10.2 -c pytorch -y
-pip install tensorboard
-conda install scipy scikit-learn matplotlib psutil -y
-conda install -c conda-forge trimesh progressbar2 jupyterlab nodejs -y
-pip install torch-scatter==latest+cu102 -f https://pytorch-geometric.com/whl/torch-1.6.0.html
-conda install pandas -y
-
-# filebrwoser
-#curl -fsSL https://filebrowser.xyz/get.sh | bash
-
-# for plotly and plotly-orca (to save as svg)
-# conda install -c plotly plotly=4.2.1 plotly-orca psutil requests -y
-conda install -c plotly plotly plotly-orca psutil requests -y
-sudo apt install xvfb libgtk2.0-0 libgconf-2-4 -y
-wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
-sudo sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google.list'
-sudo apt update
-sudo apt install google-chrome-stable -y
+conda install ipython numpy psutil -y
+conda install -c conda-forge jupyterlab nodejs -y
 
 # create symlinks to user and scratch space in the home directory for easier access
 ln -s $(readlink -f /home/code-base/user_space) ~/user_space
 ln -s $(readlink -f /home/code-base/scratch_space) ~/scratch_space
+
+git config --global user.email "guerrero@adobe.com"
+git config --global user.name "Paul Guerrero"
