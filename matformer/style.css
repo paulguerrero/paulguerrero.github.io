@@ -1,0 +1,131 @@
+body {
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0 auto;
+    max-width: 950px;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Roboto', sans-serif;
+    color: #1a1a1a;
+    font-size: 10pt;
+    line-height: 130%;
+    text-align: justify;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+    counter-reset: figures;
+}
+a {
+    text-decoration: none;
+    color: #0505af;
+}
+h1.project-title {
+    text-align: center;
+    font-weight: normal;
+    line-height: 120%;
+    font-size: 32px;
+}
+.authors { text-align: center; padding-bottom:10px;}
+.authors a {
+    display: inline-block;
+    font-size: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.authors sup {
+    color: #313436;
+    font-size: 60%;
+}
+.affiliations {
+    font-size: 15px;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.affiliations > span {
+    padding-left: 10px;
+}
+.project-conference {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.project-icons {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.project-icons a {
+    display: inline-block;
+    font-weight: bold;
+    padding: 0px 20px 0px 20px;
+}
+.project-icons i { font-size: 30px; }
+.section-title {
+    font-size: 18pt;
+    color: #000000;
+    padding-bottom: 0.3em;
+    margin-top: 2em;
+    margin-bottom: 0.2em;
+    text-align: left;
+}
+.section-title:before {
+    content: " ";
+    display: block;
+    height: 2px;
+    margin-bottom: 15px;
+    font-weight: normal;
+    background: rgb(204, 204, 204);
+    /* background: linear-gradient(90deg, white 0%, #333 50%, white 100%); */
+}
+.video {text-align: center;}
+.content {
+    margin-bottom: 2em;
+    font-size: 12pt;
+    clear: both;
+    line-height: 150%;
+}
+.image {
+    margin: 0 auto;
+    /* margin-bottom: 1em; */
+    /* padding: 10px; */
+    /* box-shadow: 3px 3px 10px #333; */
+}
+.image img {width: 100%;}
+.image span::before {
+    counter-increment: figures;
+    content: "Figure " counter(figures) ": ";
+}
+.clear {clear: both;}
+#demo-container {
+    border-radius: 15px;
+    border: 1px solid #999;
+    box-shadow: 1px 1px 5px #333;
+    padding: 25px;
+}
+#demo-header {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 150%;
+}
+#demo-form {
+    clear: both;
+    margin-bottom: 30px;
+}
+#demo-output {
+    text-align: center;
+}
+#demo-output > .prediction {
+    width: 112px;
+    clear: both;
+    box-shadow: 3px 3px 10px #333;
+    display: inline-block;
+    margin: 10px;
+}
+#demo-output > .prediction > div {
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    width: 4px;
+    height: 4px;
+}
